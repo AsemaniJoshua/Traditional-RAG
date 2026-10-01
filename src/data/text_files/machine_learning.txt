@@ -1,0 +1,19 @@
+Machine learning (ML) is a subfield of artificial intelligence focused on building algorithms that learn patterns and rules directly from data, rather than relying solely on explicitly programmed procedural logic. First popularized by Arthur Samuel in 1959, modern machine learning powers search engines, recommendation systems, autonomous robotics, natural language processing, and medical diagnostics.
+
+Machine learning paradigms are traditionally organized into three core categories:
+
+1. Supervised Learning:
+Algorithms learn a mapping function from input features (X) to target labels (y) using labeled datasets. 
+- Classification: Predicts discrete categorical outcomes (e.g., spam detection, sentiment analysis, image classification). Common models include Logistic Regression, Support Vector Machines (SVM), Random Forests, and Gradient Boosted Trees (XGBoost, LightGBM).
+- Regression: Predicts continuous numerical values (e.g., house price forecasting, temperature modeling). Common techniques include Linear Regression, Ridge/Lasso regularization, and polynomial regressors.
+
+2. Unsupervised Learning:
+Algorithms discover intrinsic structures, clusters, or representations in unlabeled data.
+- Clustering: Groups data points based on geometric or statistical similarity (e.g., K-Means, DBSCAN, Hierarchical Clustering).
+- Dimensionality Reduction: Compresses high-dimensional feature spaces while retaining variance (e.g., Principal Component Analysis (PCA), t-SNE, UMAP).
+
+3. Reinforcement Learning (RL):
+An autonomous agent learns optimal behavioral policies through trial-and-error interaction with a dynamic environment, guided by scalar reward signals. Examples include Deep Q-Networks (DQN) and Proximal Policy Optimization (PPO).
+
+The Machine Learning Engineering Lifecycle:
+Developing production-ready ML systems involves data ingestion, data cleaning, exploratory data analysis (EDA), feature engineering, train-validation-test splitting, hyperparameter tuning, and rigorous evaluation using metrics such as Precision, Recall, F1-Score, ROC-AUC, and Mean Squared Error (MSE). Mitigating risks like data leakage, overfitting, underfitting, and concept drift is critical for long-term model reliability.

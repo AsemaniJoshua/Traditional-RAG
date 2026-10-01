@@ -1,0 +1,11 @@
+Python is a high-level, interpreted, general-purpose programming language created by Guido van Rossum and first released in 1991. Its design philosophy emphasizes code readability through the use of significant indentation. Python is dynamically typed and garbage-collected, supporting multiple programming paradigms including structured, object-oriented, and functional programming.
+
+One of Python's defining characteristics is the 'Zen of Python' (PEP 20), which includes guiding aphorisms such as "Explicit is better than implicit," "Simple is better than complex," and "Readability counts."
+
+Key architectural and runtime features of CPython include:
+1. Dynamic Typing: Variable types are resolved at runtime rather than compile time. While this offers immense flexibility and rapid prototyping, type hints introduced in PEP 484 have become standard practice for large codebases.
+2. Memory Management: Python uses reference counting combined with a cyclic garbage collector to detect and clean up reference cycles.
+3. The Global Interpreter Lock (GIL): In standard CPython, the GIL ensures that only one native thread executes Python bytecode at any given moment, simplifying memory management at the cost of CPU-bound multi-threaded parallelism.
+4. Extensive Standard Library: Often described as having "batteries included," Python bundles rich modules for networking (urllib, socket), concurrency (asyncio, threading, multiprocessing), file I/O, serialization (json, pickle), and regular expressions (re).
+
+In modern computing, Python serves as the foundational language for data engineering, scientific computing, automation, and backend web services. Frameworks like FastAPI, Django, and Flask power enterprise APIs, while ecosystems like NumPy, Pandas, Scipy, and PyTorch make Python the lingua franca of artificial intelligence and data science.
