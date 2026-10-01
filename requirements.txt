@@ -5,3 +5,4 @@ pyPDF
 pymupdf
 python-dotenv
 ipykernel
+tqdm
