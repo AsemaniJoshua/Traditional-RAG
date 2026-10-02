@@ -6,3 +6,6 @@ pymupdf
 python-dotenv
 ipykernel
 tqdm
+unstructured[xlsx]
+unstructured
+openpyxl
