@@ -9,3 +9,6 @@ tqdm
 unstructured[xlsx]
 unstructured
 openpyxl
+sentence-transformers
+faiss-cpu
+chromadb
